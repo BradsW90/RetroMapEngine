@@ -1,0 +1,40 @@
+.toolbox-border {
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 2 0;
+}
+
+.tilebar-container {
+    -fx-background-color: black;
+    -fx-border-color: transparent white transparent transparent;
+    -fx-border-width: 0 2 0 0;
+}
+
+.tilebar-container > .viewport {
+    -fx-background-color: black;
+}
+
+.baselayout {
+    -fx-background-color: black;
+}
+
+.grid {
+    -fx-grid-lines-visible: true;
+    -fx-background-color: black;
+}
+
+.selected {
+    -fx-border-color: gold;
+    -fx-border-width: 2;
+}
+
+.notSelected {
+
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.new-btn {
+    -fx-text-fill: gray;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
